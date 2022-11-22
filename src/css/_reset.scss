@@ -1,7 +1,7 @@
 :root{
-  --clr-primary         : #393939;
-  --clr-secondary         : #393939;
-  --clr-contrast         : #393939;
+  --clr-primary         : #21BF73;
+  --clr-secondary         : #F9FCFB;
+  --clr-contrast         : #FD5E53;
   
   /* Tipografía */
   --tipo-principal   : Helvetica, Arial, sans-serif;
@@ -88,4 +88,5 @@ body {
   font-family : var(--tipo-principal);
   color       : var(--clr-primary);
   line-height: 1.4em;
+  background-color: var(--clr-secondary);
 }

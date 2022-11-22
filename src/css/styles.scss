@@ -1,1 +1,69 @@
-@use '_reset'
+@use '_reset';
+
+.btn {
+  border: none;
+  background-color: none;
+  padding: 1rem 1.3rem;
+  background-color: blue;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1024px;
+  margin: auto;
+  padding: 1.3rem 1rem;
+  background-color: bisque;
+  
+}
+
+.tiulo {
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.comida {
+  background-color: brown;
+  min-height: 18rem;
+}
+
+.ingredientes {
+  &__titulo {
+
+  }
+
+  .lista {
+
+  }
+}
+
+.lista {
+
+  &__ingrediente {
+
+  }
+}
+
+.carrito {
+  background-color: aqua;
+  width: fit-content;
+  padding: .5rem;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 1rem;
+  z-index: 9;
+
+  display: flex;
+  flex-direction: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  &__monto {
+
+  }
+}

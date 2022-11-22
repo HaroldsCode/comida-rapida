@@ -1,8 +1,8 @@
 @charset "UTF-8";
 :root {
-  --clr-primary: #393939;
-  --clr-secondary: #393939;
-  --clr-contrast: #393939;
+  --clr-primary: #21BF73;
+  --clr-secondary: #F9FCFB;
+  --clr-contrast: #FD5E53;
   /* Tipografía */
   --tipo-principal: Helvetica, Arial, sans-serif;
   --tipo-secundaria: Verdana;
@@ -99,4 +99,51 @@ body {
   font-family: var(--tipo-principal);
   color: var(--clr-primary);
   line-height: 1.4em;
+  background-color: var(--clr-secondary);
+}
+
+.btn {
+  border: none;
+  background-color: none;
+  padding: 1rem 1.3rem;
+  background-color: blue;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1024px;
+  margin: auto;
+  padding: 1.3rem 1rem;
+  background-color: bisque;
+}
+
+.tiulo {
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.comida {
+  background-color: brown;
+  min-height: 18rem;
+}
+
+.carrito {
+  background-color: aqua;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 1rem;
+  z-index: 9;
+  display: flex;
+  flex-direction: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }/*# sourceMappingURL=styles.css.map */
