@@ -1,0 +1,12 @@
+{
+  "name": "ye-projects",
+  "version": "1.0.0",
+  "description": "Proyecto de practica realizado en equipo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "YE",
+  "license": "MIT"
+}
